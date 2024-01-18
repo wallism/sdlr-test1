@@ -23,7 +23,9 @@ jobs:
           include-prerelease: true
           
       - name: List Directory Contents
-        run: ls -R          
+        run: |
+          find .
+          ls -R          
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
