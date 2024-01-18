@@ -1,0 +1,6 @@
+@SprintTestOpenAPI_HostAddress = http://localhost:5120
+
+GET {{SprintTestOpenAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

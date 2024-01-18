@@ -1,0 +1,6 @@
+@SprintTestHttps_HostAddress = http://localhost:5290
+
+GET {{SprintTestHttps_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

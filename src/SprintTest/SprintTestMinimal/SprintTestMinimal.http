@@ -1,0 +1,6 @@
+@SprintTestMinimal_HostAddress = http://localhost:5190
+
+GET {{SprintTestMinimal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
