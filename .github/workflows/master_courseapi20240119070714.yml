@@ -29,10 +29,11 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
-        working-directory: src/Cource.API
+        working-directory: src/Course.API
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        working-directory: src/Course.API
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
